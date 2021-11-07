@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+/*font weight 700 and 400
+  span property*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(25, 160, 172);
+}
+.base{
+    position: fixed;
+}
+.top-left-bg img{
+    height: 800px;
+    width: 750px;
+}
+.top-left-bg{
+    position: absolute;
+    top: -400px;
+    left: -200px;
+}
+.bottom-right-bg img{
+    height: 700px;
+    width: 800px;
+}
+.bottom-right-bg{
+    position: absolute;
+    top: 200px;
+    left: 858px;
+}
+.card-container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-image: url(./img/bg-pattern-card.svg);
+    height: 350px;
+    width: 300px;
+    /* margin: 150px 525px;*/
+    border-radius: 10px; 
+    position: fixed;
+}
+.white-info-bg{
+    background-color: white;
+    height: 245px;
+    width: 300px;
+    position: absolute;
+    top: 120px;
+    border-radius: 0 0 10px 10px;
+}
+.victor-img{
+    background-image: url(./img/image-victor.jpg);
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    border-radius: 100%;
+    position: absolute;
+    top: -40px;
+    right: 110px;
+    border: 5px solid white;
+}
+.victor-name-age{
+    position: absolute;
+    height: 90px;
+    width: 300px;
+    top: calc(245px - 180px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bold{
+    font-size: larger;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.grey-font{
+    color: grey;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.stats{
+    height: 90px;
+    width: 300px;
+    border-top: 2px solid rgb(217, 210, 210);
+    position: absolute;
+    top: 155px;
+    display: flex;
+}
+.stat1{
+    width: 100px;display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.stat2{
+    width: 100px;display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.stat3{
+    width: 100px;display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
