@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/*24 32 55*/
+body{
+    background-color: hsl(225, 100%, 94%);
+    overflow: hidden;
+}
+.bg-image{ 
+    position: absolute;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 27vw;
+    height: 80vh;
+    background-color: white; 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.picture{
+    height: 170px;
+    width: 368.817px;
+}
+.picture img{
+    height: 170px;
+    width: 368.817px;
+    border-radius: 10px 10px 0 0;
+}
+.order-summary{
+    height: 140px;
+    width: 368.817px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.order-summary-content{
+    margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.order-summary-encontt p{
+    font-size: 16px;
+}
+.annual-plan{
+    background-color: hsl(225, 100%, 98%);
+    width: 308.817px;
+    height: 75px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+}
+.annual-plan-image{
+    height: 75px;
+    width: calc(308.817*15/100)px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+}
+.annual-plan-image img{
+    height: 45px;
+    width: 45px;
+}
+
+.annual-plan-content{
+    height: 75px;
+    width: calc(308.817*60/100)px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.annual-plan-content p{
+    margin: 3px;
+    color: hsl(223, 47%, 23%);
+}
+
+.annual-plan-link{
+    height: 75px;
+    width: calc(308.817*25/100)px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+.payment-proceed{
+    width: 308.817px;
+    height: 38px;  
+    margin-left: 30px;
+    background-color: blue;   
+    border-radius: 10px;
+    box-shadow: 0 10px 10px hsl(225, 69%, 63%);
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.payment-proceed p{
+    color: white;
+}
+.cancel-order{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    color: hsl(224, 23%, 55%);
+}
+.font-500, .font-700, h2{
+    font-family: 'Red Hat Display', sans-serif;
+}
+.font-500{
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+.font-700{
+    font-weight: 700;
+}
+h2{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
