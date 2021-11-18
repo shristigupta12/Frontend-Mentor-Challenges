@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="base-container">
+        <img src="./images/bg-intro-desktop.png" alt="">
+        <div class="text-container">    
+                <h1>Learn to code by watching others</h1>    
+                <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>        
+        </div>
+        <div class="form-container">
+            <div class="blue-form-title-bar"> 
+                <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+            </div>
+            <div class="form-wrapper">
+                <div class="first-name-wrapper">
+                    <input type="text" id="first-name-box" placeholder="First Name" onclick="onClickInput()">
+                    <p class="error" id="firstNameError"></p>
+                </div>
+                <div class="last-name-wrapper">
+                    <input type="text" id="last-name-box" placeholder="Last Name" onclick="onClickInput()">
+                    <p class="error" id="last-name-error"></p>
+                </div>                
+                <div class="email-wrapper">
+                    <input type="text" class="email-address-box" placeholder="Email Address" onclick="onClickInput()">
+                    <p class="error" id="email-error"></p>
+                </div>               
+                <div class="password-wrapper">
+                    <input type="text" id="password-box" placeholder="Password" onclick="onClickInput()">
+                    <p class="error" id="password-error"></p>
+                </div>               
+                <button id="claimTrailBtn">CLAIM YOUR FREE TRAIL
+                </button>
+                <p id="terms-and-services">By clicking the button, you are agreeing to our <span>Terms and Services</span> </p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
