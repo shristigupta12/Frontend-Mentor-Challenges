@@ -18,27 +18,26 @@
             <div class="blue-form-title-bar"> 
                 <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
             </div>
-            <div class="form-wrapper">
-                <div class="first-name-wrapper">
-                    <input type="text" id="first-name-box" placeholder="First Name" onclick="onClickInput()">
+            <form action="/myaction.php"  class="formWrapper" name="7DayTrailForm" onsubmit="return validateForm()" method="post">
+                <div id="firstNameWrapper">
+                    <input type="text" name="fname" placeholder="First Name" onclick="onClickInput()">
                     <p class="error" id="firstNameError"></p>
                 </div>
-                <div class="last-name-wrapper">
-                    <input type="text" id="last-name-box" placeholder="Last Name" onclick="onClickInput()">
+                <div id="lastNameWrapper">
+                    <input type="text" name="lname" placeholder="Last Name" onclick="onClickInput()">
                     <p class="error" id="last-name-error"></p>
                 </div>                
-                <div class="email-wrapper">
-                    <input type="text" class="email-address-box" placeholder="Email Address" onclick="onClickInput()">
+                <div id="emailWrapper">
+                    <input type="text" name="email" type="email" placeholder="Email Address" onclick="onClickInput()">
                     <p class="error" id="email-error"></p>
                 </div>               
-                <div class="password-wrapper">
-                    <input type="text" id="password-box" placeholder="Password" onclick="onClickInput()">
+                <div id="passwordWrapper">
+                    <input type="password" name="password" placeholder="Password" onclick="onClickInput()">
                     <p class="error" id="password-error"></p>
                 </div>               
-                <button id="claimTrailBtn">CLAIM YOUR FREE TRAIL
-                </button>
+                <input id="claimTrailBtn" type="submit" value="CLAIM YOUR FREE TRAIL" onclick="formSize()" >
                 <p id="terms-and-services">By clicking the button, you are agreeing to our <span>Terms and Services</span> </p>
-            </div>
+            </form>
         </div>
     </div>
     <script src="script.js"></script>
