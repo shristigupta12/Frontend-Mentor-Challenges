@@ -1,3 +1,4 @@
+@import url("https://fontawesome.com/v5.15/how-to-use/customizing-wordpress/snippets/setup-cdn-webfont");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 *{
@@ -62,7 +63,7 @@ h1{
     background-color: #5D54A3;
     border-radius: 10px;
 }
-.form-wrapper{
+.formWrapper{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -83,7 +84,7 @@ h1{
     font-weight: 600;
     color: white;
 }
-.form-wrapper input{
+.formWrapper input{
     height: 23px;
     width: 380px;
     border-radius: 5px;
@@ -91,20 +92,26 @@ h1{
     /* border: 2px groove hsl(246, 25%, 77%); */
     border: 2px solid #F3F2F2;
 }
-.form-wrapper input:hover{
+/* .form-wrapper input:hover{
     border: 2px groove hsl(246, 25%, 77%);
-}
-.form-wrapper div{
+} */
+.formWrapper div{
     width: 405px;
 }
-.form-wrapper input[type=text]{
+.formWrapper input[type=text]{
+    color: hsl(249, 10%, 26%) ;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.formWrapper input[type=password]{
     color: hsl(249, 10%, 26%) ;
     font-size: 14px;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
 }
 
-.form-wrapper button{
+#claimTrailBtn{
     height: 50px;
     width: 400px;
     border-radius: 5px;
@@ -116,7 +123,7 @@ h1{
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
 }
-.form-wrapper p{
+.formWrapper p{
     width: 400px;
     font-size: 10px;
 }
