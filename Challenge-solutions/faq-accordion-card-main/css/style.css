@@ -85,6 +85,10 @@ hr{
 .question{
     width: 225px;
 }
+.question:hover{
+    cursor: pointer;
+
+}
 p{
     width: 315px;
     color: hsl(240, 6%, 50%);

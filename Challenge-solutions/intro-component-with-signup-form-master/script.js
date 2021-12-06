@@ -29,7 +29,7 @@ function validateForm(){
     }
     if(returnVal == false){
         formWrapper = document.getElementsByClassName("formWrapper");
-        formWrapper[0].style.height = "600";
+        formWrapper[0].style.height = "700px";
     }
     return returnVal
 }

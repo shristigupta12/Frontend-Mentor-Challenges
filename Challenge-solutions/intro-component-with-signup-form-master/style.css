@@ -57,12 +57,6 @@ h1{
     width: 500px;
     height: 480px;
 }
-.blue-form-title-bar{
-    height: 50px;
-    width: 500px;
-    background-color: #5D54A3;
-    border-radius: 10px;
-}
 .formWrapper{
     display: flex;
     flex-direction: column;
@@ -75,11 +69,15 @@ h1{
     border-radius: 10px;
 }
 .blue-form-title-bar{
+    height: 50px;
+    width: 500px;
+    background-color: #5D54A3;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: hsl(246, 25%, 77%);
-} 
+}
 .blue-form-title-bar span{
     font-weight: 600;
     color: white;
