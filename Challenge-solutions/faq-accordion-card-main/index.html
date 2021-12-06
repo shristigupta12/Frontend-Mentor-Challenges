@@ -65,7 +65,53 @@
         </div>
     </div>
     <script>
-        
+        let qs1 = document.getElementById("q1")
+        let qs2 = document.getElementById("q2")
+        let qs3 = document.getElementById("q3")
+        let qs4 = document.getElementById("q4")
+        let qs5 = document.getElementById("q5")
+
+        qs1.addEventListener('mouseover', ()=>{
+            qs1.style.fontWeight = "bold";
+            qs1.style.color = "rgb(245,131,97)";
+        })
+        qs1.addEventListener('mouseout', ()=>{
+            qs1.style.fontWeight = "400";
+            qs1.style.color = "hsl(237, 12%, 33%)";
+        })
+        qs2.addEventListener('mouseover', ()=>{
+            qs2.style.fontWeight = "bold";
+            qs2.style.color = "rgb(245,131,97)";
+        })
+        qs2.addEventListener('mouseout', ()=>{
+            qs2.style.fontWeight = "400";
+            qs2.style.color = "hsl(237, 12%, 33%)";
+        })
+        qs3.addEventListener('mouseover', ()=>{
+            qs3.style.fontWeight = "bold";
+            qs3.style.color = "rgb(245,131,97)";
+        })
+        qs3.addEventListener('mouseout', ()=>{
+            qs3.style.fontWeight = "400";
+            qs3.style.color = "hsl(237, 12%, 33%)";
+        })
+        qs4.addEventListener('mouseover', ()=>{
+            qs4.style.fontWeight = "bold";
+            qs4.style.color = "rgb(245,131,97)";
+        })
+        qs4.addEventListener('mouseout', ()=>{
+            qs4.style.fontWeight = "400";
+            qs4.style.color = "hsl(237, 12%, 33%)";
+        })
+        qs5.addEventListener('mouseover', ()=>{
+            qs5.style.fontWeight = "bold";
+            qs5.style.color = "rgb(245,131,97)";
+        })
+        qs5.addEventListener('mouseout', ()=>{
+            qs5.style.fontWeight = "400";
+            qs5.style.color = "hsl(237, 12%, 33%)";
+        })
+
         const arrowicon1 = document.querySelector("#arrow-icon1")
         const arrowicon2 = document.querySelector("#arrow-icon2")
         const arrowicon3 = document.querySelector("#arrow-icon3")
@@ -78,55 +124,55 @@
             arrowicon1.classList.toggle('ans-arrow')
             if(!arrowicon1.classList.value.includes("ans-arrow")){
                 answer[0].hidden = true
-                document.getElementById("q1").style.fontWeight = "400";
+                qs1.style.fontWeight = "400";
             }
             else if(arrowicon1.classList.value.includes("ans-arrow")){
                 answer[0].hidden = false
-                document.getElementById("q1").style.fontWeight = "bold";
+                qs1.style.fontWeight = "bold";
             }
         })
         arrowicon2.addEventListener('click', ()=>{
             arrowicon2.classList.toggle('ans-arrow')
             if(!arrowicon2.classList.value.includes("ans-arrow")){
                 answer[1].hidden = true
-                document.getElementById("q2").style.fontWeight = "400";
+                qs2.style.fontWeight = "400";
             }
             else if(arrowicon2.classList.value.includes("ans-arrow")){
                 answer[1].hidden = false
-                document.getElementById("q2").style.fontWeight = "bold";
+                qs2.style.fontWeight = "bold";
             }
         })
         arrowicon3.addEventListener('click', ()=>{
             arrowicon3.classList.toggle('ans-arrow')
             if(!arrowicon3.classList.value.includes("ans-arrow")){
                 answer[2].hidden = true
-                document.getElementById("q3").style.fontWeight = "400";
+                qs3.style.fontWeight = "400";
             }
             else if(arrowicon3.classList.value.includes("ans-arrow")){
                 answer[2].hidden = false
-                document.getElementById("q3").style.fontWeight = "bold";
+                qs3.style.fontWeight = "bold";
             }
         })
         arrowicon4.addEventListener('click', ()=>{
             arrowicon4.classList.toggle('ans-arrow')
             if(!arrowicon4.classList.value.includes("ans-arrow")){
                 answer[3].hidden = true
-                document.getElementById("q4").style.fontWeight = "400";
+                qs4.style.fontWeight = "400";
             }
             else if(arrowicon4.classList.value.includes("ans-arrow")){
                 answer[3].hidden = false
-                document.getElementById("q4").style.fontWeight = "bold";
+                qs4.style.fontWeight = "bold";
             }
         })
         arrowicon5.addEventListener('click', ()=>{
             arrowicon5.classList.toggle('ans-arrow')
             if(!arrowicon5.classList.value.includes("ans-arrow")){
                 answer[4].hidden = true
-                document.getElementById("q5").style.fontWeight = "400";
+                qs5.style.fontWeight = "400";
             }
             else if(arrowicon5.classList.value.includes("ans-arrow")){
                 answer[4].hidden = false
-                document.getElementById("q5").style.fontWeight = "bold";
+                qs5.style.fontWeight = "bold";
             }
         })
     </script>
