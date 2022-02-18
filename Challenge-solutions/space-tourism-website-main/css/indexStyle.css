@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+    /* position:static; */
+    background-image: url('../imgs/background-home-desktop.jpg');
+    padding: 30px 0px 30px 30px;
+}
+.navBar{
+    margin: 25px -30px 20vh 40vw;
+    width: 65vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(50, 63, 93, 0.6);
+    border-radius: 2px;
+}
+nav{
+    display: flex;
+    gap: 30px;
+    color: white;
+}
+.navIndex{
+    margin-right: 9px;
+}
+.content-wrapper{
+    margin-top: 20vh;
+    display: flex;
+}
+.content-container{
+    width: 28vw;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 15px;
+    margin: 0px 100px;
+}
+.first-line{
+    font-size: 20px;
+}
+.space{
+    font-size: 120px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.content-sticker{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    margin: 15vh 5vw 3vh 25vw;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #393A3C;
+}
